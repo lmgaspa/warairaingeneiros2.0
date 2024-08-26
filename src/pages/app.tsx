@@ -4,6 +4,7 @@ import ServiciosPage from "./servicios"
 import PortafolioPage from "./portafolio"
 import EquipoPage from "./equipo"
 import ContactoPage from "./contacto"
+import FolderPage from './folderpage';
 
 const App: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
                 <title>Waraira Ingenieros</title>
                 <meta name="description" content="Waraira Ingenieros, empresa de ingeniería y constucción em Matucana, Huarochiri, Peru" />
             </Head>
+            <FolderPage />
             <NosotrosPage />
             <ServiciosPage />
             <PortafolioPage />
